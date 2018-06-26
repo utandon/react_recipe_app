@@ -1,0 +1,38 @@
+/* Adding shadows to create card affect */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 30%;
+  float: left;
+  margin: 1.66%;
+  background: white;
+
+  /* height: auto; */
+  /* height: 100%; */
+}
+/* On mouse over, increase the shadow depth */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.card-container {
+   /* display: table-cell; */
+   /* flex: 1; */
+   /* height: 100%; */
+}
+img {
+  display: flex;
+  width: 100%;
+  height: 250px;
+  /* overflow: hidden;
+  /* height: 50%;
+  width: 100%;
+  height: 250px; */
+}
+/* Add some padding inside the card container */
+.card-content {
+  padding: 2px 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  /* display: table-cell; */
+  /* height: 100%; */
+}
